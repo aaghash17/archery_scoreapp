@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import './login.css'
+import './my.css'
 
 
 function Login() {
@@ -14,7 +14,7 @@ function Login() {
         console.log("Password:", password);
     };
     return (
-        <div className="login-container">
+      <div className="my-login-container">
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <h3 className="text-center">Event Name</h3>

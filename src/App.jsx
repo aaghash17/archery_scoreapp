@@ -1,9 +1,11 @@
-import Login from './login'; // Import the Login component
+import Login from './login'; 
+import Admin from './admin';
 
 function App() {
   return (
     <div>
-      <Login />
+      <Login/>
+      <Admin />
     </div>
   );
 }
